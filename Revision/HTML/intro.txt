@@ -1,0 +1,5 @@
+HTML stands for Hyper Text Markup Language. Invented by the Tim Berner Lee in 1991.
+
+HTML describes the structure of the webpage .
+
+In one word we can say the HTML is use for build a skeleton of the webpage.
