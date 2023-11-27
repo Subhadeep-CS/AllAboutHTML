@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        One of the most important topic in html is list.
+        We use list for the listing some text 
+        Best use of the list is to create a navigation bar.
+
+        There are four type of list available in html.
+
+        1.Order List=> If you want to listing element or text in a specific order
+        by default number then we use order list.
+
+        Tag for order list:-
+        
+        <ol>
+            <li></li>
+        </ol>
+
+        Inside the ol we use li tag for specify the list item.
+
+        2.Unorder List=> If you want to listing element or text without a specific order
+        by default bullet then we use unorder list:
+
+        Tag for the unorder list:-
+
+        <ul>
+            <li></li>
+        </ul>
+
+        3.Nested List=>Nested List basically the list inside the list.
+        It's basically the combination of the order list and unorder list.
+
+        <ul>
+            <li>
+                <ol>
+                    <li>
+                    </li>
+                <ol>
+            </li>
+            <li></li>
+        <ul>
+        
+        4.Description Listing=> When we want to specify some description of a specific
+        topic then we use description listing.
+
+        Inside the dt we specify the description text and inside dd we use description
+        details.
+
+        <dl>
+            <dt>
+            </dt>
+            <dd>
+            </dd>
+        </dl>
+
+        Attribute:-
+
+        By feault the order of the order list is numbering and for unorder list, it's
+        bullet
+
+        But if we change this, for that we use a attribute type
+
+        Order List
+
+        type='A'==>Alphabetical(uppercase)
+        type='a'==>Alphabetical(lowercase)
+        type='I'==>Roman
+
+        Unorder List
+
+        type=disc==>disc(default)
+
+        circle,square,none
+
+        reversed attribute for the reverse listing.
+     -->
+     <p>Order list</p><br/>
+     <ol reversed>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Guava</li>
+     </ol>
+     <p>Unorder List</p>
+     <ul type="square">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Guava</li>
+     </ul>
+     <p>Nested List</p></br>
+     <ul>
+        <li>
+            <ol>
+                <li>
+                    apple
+                </li>
+                <li>
+                    Guava
+                </li>
+            </ol>
+        </li>
+        <li>
+            Mango
+        </li>
+     </ul>
+     <p>Description Details</p>
+     <dl>
+        <dt>I am boy</dt>
+        <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, laborum?</dd>
+     </dl>
+</body>
+</html>
