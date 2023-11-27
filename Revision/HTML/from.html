@@ -18,9 +18,14 @@
         Inside the form we specify the input tag to take the input from the user
         
         We have some attribute of the from tag.
-    -->
-    <form>
 
+        1. action==> action attribute specify that where the data will submitted.Here
+        the data will submitted in to backend.php. After the backend.php will manage our
+        data.
+    -->
+    <form action="backend.php">
+        <label for="firstName">First Name</label>
+        <input type="text" name="name" id="firstName">
     </form>
 </body>
 </html>

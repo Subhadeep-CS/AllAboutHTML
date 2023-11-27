@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        Here I make a form where the all input type listed
+
+        Basically input tag provide a field where User specify their data.
+
+        Attribute of input tag=>
+
+        1. type=> inside the type attribute we specify the type of data.Means which type
+        of data requied for the acceptance
+
+        like type="text" means that only text data accepted.
+
+        2. id is use for unique identifier means we use id for labeling element 
+        and use for dom manipulation or adding some javascript.
+
+        id is always be identical.
+
+        3. required=> we use required  for this field is madnatory. Without having some data
+        the form does not submit.
+
+        4.value==> value attribute provides the value of the input field.
+
+        label==> lable tag use for labling the form element 
+
+        It's consist one attribute "for" inside the for attribute we specify the
+        id value. Means for value should be same as id value.
+     -->
+     <label for="name">NAME</label>
+     <input type="text" id="name" name="userName">
+     <label for="age">AGE</label>
+     <input type="number" id="age" name="userAge">
+     <label for="dob">DATE OF BIRTH</label>
+     <input type="date" id="dob" name="userDOB">
+     <label for="email">EMAIL</label>
+     <input type="email" id="email" name="userEmail">
+     <label for="phone">PHONE NUMBER</label>
+     <input type="tel" id="phone" name="userPhone">
+     <label for="password">PASSWORD</label>
+     <input type="password" id="password" name="userPassword">
+     <label for="gender">GENDER</label>
+     M<input type="checkbox" id="gender" name="userGender" value="Male">
+     F<input type="checkbox" id="gender" name="userGender" value="Female">
+     <label for="location">LOCATION</label>
+     <select name="userLocation" id="location">
+        <option value="">Select Your Location</option>
+        <option value="KOLKATA">Kol</option>
+        <option value="MUMBAI">Mum</option>
+        <option value="CHENNAI">Chn</option>
+     </select>
+     <label for="hobby">HOBBY</label>
+     <textarea rows="2" cols="10" name="userHobby" id="hobby">Enter Your Hobby</textarea>
+     <label for="photo">Upload Your Photo</label>
+     <input type="file" name="userPhoto" id="photo">
+     <input type="button" value="submit">
+    </body>
+</html>
