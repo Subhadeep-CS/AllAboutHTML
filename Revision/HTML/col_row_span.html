@@ -10,7 +10,57 @@
     <!-- 
         By default th is bold and center align
         By default tr is left align.
+
+        How to span a column and row
+
+        For that we use a attribute called colspan for spanning column and rowspan for
+        spanning row.
+
      -->
-     
+     <table border="1" cellspacing="0">
+            <tr>
+                <th colspan="6">
+                    Time Table
+                </th>
+            </tr>
+            <tr>
+                <th rowspan="6">Hours</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+                <td>Sports</td>
+            </tr>
+            <tr>
+                <th colspan="5">Lunch</th>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td colspan="2" rowspan="2">Project</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+            </tr>
+     </table>
 </body>
 </html>

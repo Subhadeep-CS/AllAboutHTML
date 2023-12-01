@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        How to align a form?
+
+        We all know that input tag and label tag is inline tag.For this when we want to
+        align a form element or we want to go next line we add several break line(<br>)
+        tag. But adding more and more br tag is not identical for code that reduce
+        the search engine optimization and cannot align properly.
+
+        For that we use table for align the form element.
+     -->
+     <table>
+        <form>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="number">Number:</label></td>
+                <td><input type="number" name="number" id="number"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="submit"></td>
+            </tr>
+        </form>
+     </table>
+</body>
+</html>
