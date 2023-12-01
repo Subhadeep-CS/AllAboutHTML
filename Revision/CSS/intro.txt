@@ -1,0 +1,45 @@
+What is CSS?
+
+CSS stands for cascading style sheets. 
+
+Using html we create the skeleton of a website, when we want to add some style in it we use
+CSS. CSS is use to give style of the website and also CSS used to make our website 
+responsive.
+
+Main point is that CSS takes the responsibility of design.
+
+History of the CSS==>
+
+CSS was created by a group of individual known as WORLD WIDE CONSORTIUM(W3C)
+Primary contributor include Hokon Wium Lie and Bret Bros.
+
+CSS standards and specification are maintained by  the W3C
+
+A community of web developer designers, and browser vendors also contribute to its
+evaluation.
+
+Regular updates and new versions ensure  CSS remains relevant and adoptable to changing
+web design needs.
+
+How to write CSS?
+
+The syntax of writting CSS is
+
+selector{property_name:value;}
+
+Now ,selector means where to add style.
+property_name meaning which style want to add and value means the which color or syle add
+
+p{color:red;}
+
+all pharagraph inside the <body> their text color will be red.
+
+How to add CSS to the markup language?
+
+There are three way to add CSS in the html element:-
+
+1.Inline CSS
+
+2.Internal CSS
+
+3.External CSS
